@@ -59,4 +59,4 @@ for image_id, matches in image_matches.items():
     })
 
 matches_df = pd.DataFrame(results)
-matches_df.to_excel('matched_products_per_image11.xlsx', index=False)
+matches_df.to_csv('matched_products_per_image.csv', index=False)
